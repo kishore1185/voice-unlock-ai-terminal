@@ -1,0 +1,5 @@
+speechrecognition
+pyttsx3
+pyaudio
+
+to run the project, inside terminal run :- python unlock_ai.py
