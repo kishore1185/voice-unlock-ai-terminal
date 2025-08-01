@@ -18,17 +18,28 @@ Inspired by high-tech security systems. This project allows you to unlock access
 
 ---
 
+## 🛠️ Installation
+
+- Install The Required Deps
+   ```bash
+   pip install -r requirements.txt
+   ```
+- Run **unlock_ai.py**
+   ```bash
+   python unlock_ai.py
+   ```
+
 
 ## 🚀 How It Works
 
 1. Microphone is calibrated
 2. User is prompted to speak the **secret phrase**
 3. Voice is recognized and compared using fuzzy matching
-4. If similarity ≥ 0.85 → Access Granted ✅  
+4. If similarity > 0.8 → Access Granted ✅  
    Else → Access Denied ❌
 
 Example secret phrase:
-> `power to the code kishore`
+> `hello world`
 
 ---
 
